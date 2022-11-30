@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba3689afc130134b87b1795596dd408, type: 3}
+  m_Name: Game Breaking
+  m_EditorClassIdentifier: 
+  modeName: Game Breaking
+  plungerEnabled: 1
+  plungerDuration: 3
+  plungerRange: -1
+  plungerForce: 50
+  plungerLatchSpeed: 100
+  spikesEnabled: 1
+  spikesDuration: -1
+  spikesReleaseSpeed: 20
+  grappleEnabled: 1
+  grappleLatchSpeed: 100
+  grappleGrappleSpeed: 40
+  pentagonEnabled: 1
+  pentagonDuration: 3
+  clonesEnabled: 1
+  clonesDuration: 3
+  clonesAmount: 4
+  bumperEnabled: 1
+  bumperDuration: 30
+  bumperLaunchSpeed: 40
+  bumperBumpForce: 60
+  teleportEnabled: 1
+  teleportDelay: 0
+  megaEnabled: 1
+  megaDuration: 3
+  megaMassIncrease: 3
+  hijackEnabled: 1
+  hijackDuration: 3
+  hijackMoveForce: 5
+  gameValues: 1
+  powerupCooldown: 0
+  respawnCooldown: 1
+  boostRespawnTime: -2
+  kickoffBoostAmount: -2
+  physics: 0
+  playerThrustForce: -2
+  playerBoostForce: -2
+  playerTurnSpeed: -2
+  playerMass: -2
+  playerDrag: -2
+  playerDemolishThreshold: -2
+  playerBumpForce: -2
+  ballMass: -2
+  ballDrag: -2
+  ballBounciness: -2

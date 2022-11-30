@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba3689afc130134b87b1795596dd408, type: 3}
+  m_Name: Boomer
+  m_EditorClassIdentifier: 
+  modeName: Boomer
+  plungerEnabled: 1
+  plungerDuration: -2
+  plungerRange: -2
+  plungerForce: -2
+  plungerLatchSpeed: -2
+  spikesEnabled: 1
+  spikesDuration: -2
+  spikesReleaseSpeed: -2
+  grappleEnabled: 1
+  grappleLatchSpeed: -2
+  grappleGrappleSpeed: -2
+  pentagonEnabled: 1
+  pentagonDuration: -2
+  clonesEnabled: 1
+  clonesDuration: -2
+  clonesAmount: -2
+  bumperEnabled: 1
+  bumperDuration: -2
+  bumperLaunchSpeed: -2
+  bumperBumpForce: -2
+  teleportEnabled: 1
+  teleportDelay: -2
+  megaEnabled: 1
+  megaDuration: -2
+  megaMassIncrease: -2
+  hijackEnabled: 1
+  hijackDuration: -2
+  hijackMoveForce: -2
+  gameValues: 0
+  powerupCooldown: -2
+  respawnCooldown: -2
+  boostRespawnTime: -2
+  kickoffBoostAmount: -2
+  physics: 1
+  playerThrustForce: -2
+  playerBoostForce: -2
+  playerTurnSpeed: -2
+  playerMass: -2
+  playerDrag: -2
+  playerDemolishThreshold: -2
+  playerBumpForce: -2
+  ballMass: 0.8
+  ballDrag: -2
+  ballBounciness: 1.5

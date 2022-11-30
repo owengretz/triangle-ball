@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c21c693a7772e248bced9b1e01cc7f3, type: 3}
+  m_Name: UltimateReplaySettings
+  m_EditorClassIdentifier: 
+  defaultReplayPreparer:
+    skipTypes:
+    - assemblyQualifiedTypeName: UltimateReplay.ReplayObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UltimateReplay.ReplayBehaviour, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UnityEngine.AudioSource, UnityEngine.AudioModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UnityEngine.ParticleSystem, UnityEngine.ParticleSystemModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: SetGEColour, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - assemblyQualifiedTypeName: PlayerTrail, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - assemblyQualifiedTypeName: TMPro.TMP_Text, Unity.TextMeshPro, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UnityEngine.UI.CanvasScaler, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: UnityEngine.Canvas, UnityEngine.UIModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - assemblyQualifiedTypeName: TimerBall, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - assemblyQualifiedTypeName: BallSprite, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    preparerSettings:
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Animator, UnityEngine.AnimationModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Behaviour, UnityEngine.CoreModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Collider, UnityEngine.PhysicsModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Collider2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Rigidbody, UnityEngine.PhysicsModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+    - componentPreparerType:
+        assemblyQualifiedTypeName: UnityEngine.Rigidbody2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      enabled: 1
+  recordOptions:
+    recordFPS: 30
+    recordUpdateMethod: 0
+  playbackOptions:
+    playbackEndBehaviour: 0
+    playbackFPS: -1
+    playbackUpdateMethod: 0
+  prefabs:
+    prefabs:
+    - {fileID: 8489286053929183517, guid: 64a24f81378a2af44b86e344dd84d492, type: 3}
+    - {fileID: 7828311084867730024, guid: b60e1f8e6ed92d84e92d0ec447691225, type: 3}
+    - {fileID: 5990687710050647343, guid: 7bdff87397adb78468c679c5b0ea78e3, type: 3}
+    - {fileID: 3163032683263754981, guid: 821d67d82b4cab942b770063ffb0838c, type: 3}
+    - {fileID: 7153371262364931377, guid: 99e2351a8d70b1844a98759eddae70a5, type: 3}
+    - {fileID: 8868776498297984930, guid: 298f02679104f2147a0434c0252f7112, type: 3}
+    - {fileID: 3850036033927983175, guid: 5bf84ef9fffce514da1b5b5dc371561e, type: 3}
+    - {fileID: 667361277685002407, guid: 9bc6eaea4ed686941970dcfe9a5cee31, type: 3}
+    - {fileID: -6793108378093854131, guid: 205b27aff9183e74080b1bed2db497c6, type: 3}
+    - {fileID: 8830494274023073569, guid: 2f68cceea62daad419016fb379845806, type: 3}
+    - {fileID: 275291119526682658, guid: e9510a327d1545b43b16c2735d9eb381, type: 3}
+    - {fileID: 1940665822498038468, guid: 7bdf721f39299664fbcb36729c45f4b5, type: 3}
+    - {fileID: -57394333031544663, guid: f4299ae306e48b340b579c7bdefc72b1, type: 3}
+    - {fileID: 1305735323313676845, guid: 6f1985ca8295a654aa5c9afeaad62a92, type: 3}
+    - {fileID: 3166821071822380825, guid: f0e0edadeb85f484a8febda904e18776, type: 3}
+    - {fileID: 8180537229566844124, guid: 229c24218fe200b41b853d943f2a736f, type: 3}
+    - {fileID: 3976941013735402191, guid: a45923c89c6ac644c82419190da70ddb, type: 3}

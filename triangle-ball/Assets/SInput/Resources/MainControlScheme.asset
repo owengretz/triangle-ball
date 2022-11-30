@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93664c924306149c9abd8698e3655c26, type: 3}
+  m_Name: MainControlScheme
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Player 1 Thrust
+    keyboardInputs: 1b000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 1 Boost
+    keyboardInputs: 33000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 1 Turn Right
+    keyboardInputs: 08000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 1 Turn Left
+    keyboardInputs: 05000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 1 Use Powerup
+    keyboardInputs: 17000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 2 Thrust
+    keyboardInputs: 01000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 2 Boost
+    keyboardInputs: 11000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 2 Turn Right
+    keyboardInputs: 03000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 2 Turn Left
+    keyboardInputs: 04000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 2 Use Powerup
+    keyboardInputs: 02000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 3 Thrust
+    keyboardInputs: 0d000000
+    gamepadInputs: 07000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 3 Boost
+    keyboardInputs: 06000000
+    gamepadInputs: 05000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 3 Turn Right
+    keyboardInputs: 10000000
+    gamepadInputs: 10000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 3 Turn Left
+    keyboardInputs: 0e000000
+    gamepadInputs: 0f000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 3 Use Powerup
+    keyboardInputs: 0f000000
+    gamepadInputs: 0d000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 4 Thrust
+    keyboardInputs: 
+    gamepadInputs: 08000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 4 Boost
+    keyboardInputs: 
+    gamepadInputs: 06000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 4 Turn Right
+    keyboardInputs: 
+    gamepadInputs: 14000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 4 Turn Left
+    keyboardInputs: 
+    gamepadInputs: 13000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Player 4 Use Powerup
+    keyboardInputs: 
+    gamepadInputs: 01000000
+    mouseInputs: 
+    virtualInputs: []
+  smartControls:
+  - name: Horizontal 1
+    positiveControl: Player 1 Turn Right
+    negativeControl: Player 1 Turn Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Horizontal 2
+    positiveControl: Player 2 Turn Right
+    negativeControl: Player 2 Turn Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Horizontal 3
+    positiveControl: Player 3 Turn Right
+    negativeControl: Player 3 Turn Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Horizontal 4
+    positiveControl: Player 4 Turn Right
+    negativeControl: Player 4 Turn Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Vertical 1
+    positiveControl: Player 1 Thrust
+    negativeControl: Player 1 Use Powerup
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Vertical 2
+    positiveControl: Player 2 Thrust
+    negativeControl: Player 2 Use Powerup
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Vertical 3
+    positiveControl: Player 3 Thrust
+    negativeControl: Player 3 Use Powerup
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Vertical 4
+    positiveControl: Player 4 Thrust
+    negativeControl: Player 4 Use Powerup
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0

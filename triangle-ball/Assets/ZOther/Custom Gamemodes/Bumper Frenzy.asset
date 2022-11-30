@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba3689afc130134b87b1795596dd408, type: 3}
+  m_Name: Bumper Frenzy
+  m_EditorClassIdentifier: 
+  modeName: Bumper Frenzy
+  plungerEnabled: 0
+  plungerDuration: -2
+  plungerRange: -2
+  plungerForce: -2
+  plungerLatchSpeed: -2
+  spikesEnabled: 0
+  spikesDuration: -2
+  spikesReleaseSpeed: -2
+  grappleEnabled: 0
+  grappleLatchSpeed: -2
+  grappleGrappleSpeed: -2
+  pentagonEnabled: 0
+  pentagonDuration: -2
+  clonesEnabled: 0
+  clonesDuration: -2
+  clonesAmount: -2
+  bumperEnabled: 1
+  bumperDuration: 3
+  bumperLaunchSpeed: -2
+  bumperBumpForce: -2
+  teleportEnabled: 0
+  teleportDelay: -2
+  megaEnabled: 0
+  megaDuration: -2
+  megaMassIncrease: -2
+  hijackEnabled: 0
+  hijackDuration: -2
+  hijackMoveForce: -2
+  gameValues: 1
+  powerupCooldown: 3
+  respawnCooldown: -2
+  boostRespawnTime: -2
+  kickoffBoostAmount: -2
+  physics: 0
+  playerThrustForce: -2
+  playerBoostForce: -2
+  playerTurnSpeed: -2
+  playerMass: -2
+  playerDrag: -2
+  playerDemolishThreshold: -2
+  playerBumpForce: -2
+  ballMass: -2
+  ballDrag: -2
+  ballBounciness: -2
